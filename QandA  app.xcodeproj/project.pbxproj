@@ -13,6 +13,7 @@
 		CCC33D06278C59810069600D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCC33D04278C59810069600D /* Main.storyboard */; };
 		CCC33D08278C59840069600D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCC33D07278C59840069600D /* Assets.xcassets */; };
 		CCC33D0B278C59840069600D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCC33D09278C59840069600D /* LaunchScreen.storyboard */; };
+		CCC33D13278C5CC20069600D /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC33D12278C5CC20069600D /* Question.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CCC33D07278C59840069600D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CCC33D0A278C59840069600D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CCC33D0C278C59840069600D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCC33D12278C5CC20069600D /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				CCC33D00278C59810069600D /* SceneDelegate.swift */,
 				CCC33D02278C59810069600D /* ViewController.swift */,
 				CCC33D04278C59810069600D /* Main.storyboard */,
+				CCC33D12278C5CC20069600D /* Question.swift */,
 				CCC33D07278C59840069600D /* Assets.xcassets */,
 				CCC33D09278C59840069600D /* LaunchScreen.storyboard */,
 				CCC33D0C278C59840069600D /* Info.plist */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CCC33D03278C59810069600D /* ViewController.swift in Sources */,
+				CCC33D13278C5CC20069600D /* Question.swift in Sources */,
 				CCC33CFF278C59810069600D /* AppDelegate.swift in Sources */,
 				CCC33D01278C59810069600D /* SceneDelegate.swift in Sources */,
 			);
